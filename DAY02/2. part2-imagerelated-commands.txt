@@ -101,7 +101,7 @@ docker volume prune
 docker tag
 -----------
 
-docker tag customname kkeducation123456/java-web-app:1
+docker tag  kkeducation123456/java-web-app:1 customname
 
 
 
