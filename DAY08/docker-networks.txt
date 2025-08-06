@@ -74,11 +74,8 @@ docker exec -it mavenwebapp /bin/bash
 
 step 2: ping with another container ip
 
-yum update
-yum install -y iputils
 
-
-
+apt update && apt install iputils-ping -y
 
 ping 172.17.0.3
 
